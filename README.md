@@ -11,13 +11,6 @@ The specific use case demonstrated is **Optical Character Recognition (OCR) for 
 * **Full VLM Fine-Tuning**: Targets both vision and language layers via LoRA (Low-Rank Adaptation).
 * **Dataset**: Utilizes the `unsloth/Latex_OCR` dataset.
 
-  Parameter,Value
-Batch Size,2 (per device)
-Gradient Accumulation,4 steps
-Max Steps,30 (Demo/Quick run)
-Learning Rate,2e-4
-Optimizer,AdamW 8-bit
-Scheduler,Linear
 
 ##  Installation
 
